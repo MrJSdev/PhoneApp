@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap); 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+body{
+  background-color: #F4F7FC;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2,h3, h4,h5, h6{
+  font-weight: 700;
+}
+
+
+.font-medium{
+  font-weight: 500;
+}
+.font-bold{
+  font-weight: bold;
+}
+.font-normal{
+  font-weight: 400;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.width-100{
+  width: 100%;
+}
+.pos-absolute {
+  position: absolute;
+}
+.pos-relative {
+  position: relative;
+}
+.inline-block{
+  display: inline-block;
+}
+.block{
+  display: block;
+}
+.flex{
+  display: flex;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-0{
+  flex: 0;
+}
+.flex-shrink{
+  flex-shrink: 1;
+}
+.conent-center {
+  align-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-shrink{
+  flex-shrink: 1;
+}
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+.bottom-0{
+  bottom: 0;
+}
+.top-0{
+  top: 0;
+}
+.left-0{
+  left: 0;
+}
+.right-0{
+  right: 0;
+}
+.padding-0{
+  padding: 0;
+}
+.margin-0{
+  margin: 0;
+}
+.background--primary{
+  background-color: orangered;
+}
+.background--white{
+  background-color: white;
+}
+.background--black{
+  background-color: black;
+}
+.text--primary{
+  color: orangered;
+}
+.text--white{
+  color: white;
+}
+.text--black{
+  color: black;
+}
+.col-6{
+  width: 50%;
+}
+.col-12{
+  width: 100%;
+}
+.col-4{
+  width: 33.3%;
+}
+
+
+@media screen and  (min-width: 481px) and (max-width: 768px) {
+  .col-4{
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 481px) {
+  .col-4{
+    width: 100%;
+  }
+}
